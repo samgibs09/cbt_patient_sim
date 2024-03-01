@@ -1,0 +1,1 @@
+/* Component to display the inside the mind of the patient */

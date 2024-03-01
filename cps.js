@@ -1,0 +1,27 @@
+/* Overview of Project:
+- This project is a simulation of a patient from the perspective of cognitive behavioural therapy (CBT).
+- The patient is made up of several different aspects, each of which is represented by a different module
+  - Thinking styles
+    - Core beliefs
+    - Intermediate beliefs
+    - Automatic thoughts
+  - Emotions
+  - Behaviours
+  - Biology (physical symptoms)
+- The patient-clinician relationship is also represented by a module
+    - Rapport
+    - Trust
+    - Transference
+        - Positive relationships
+        - Negative relationships
+- The initial conversation between the patient and the clinician is represented by a module
+    - This takes user input and processes it against the situation, the patient and the patient-clinician relationship
+    - The patient-clinician relationship is then updated based on the input
+    - As the patient-clinician relationship is improved, more information from the patient's modules in brought into the conversation
+
+- There is a situation module which represents the situation the patient is in, and this is the starting point for the patient's journey through the simulation.
+- There is a CBT action module, which allows the user to input a recommended action for the patient to take, and this is then processed by the patient's modules.
+- The patient's modules are all connected to the situation module, and they can all communicate with each other.
+- Following the input of a recommended action, the patient's modules will all update their states, and the patient will then be able to take another action.
+- Depending on the reaction from the patient's modules and the patient-clinician relationship module, the cbt action will be determined to be actioned thoroughly, partially, or not at all.
+- The patient's modules will then update their states again, based on the action and how well it was implemented, and the patient will be able to take another action.

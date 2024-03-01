@@ -1,0 +1,1 @@
+/* Data model for the relationship between a patient and a clinician */

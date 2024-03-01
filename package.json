@@ -1,0 +1,30 @@
+{
+  "name": "cbt_patient_sim",
+  "version": "1.0.0",
+  "description": "A cbt patient simulation",
+  "main": "cps.js",
+  "scripts": {
+    "test": "test",
+    "start": "node cps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgibs09/cbt_patient_sim.git"
+  },
+  "keywords": [
+    "cbt",
+    "patient",
+    "simulation",
+    "sim",
+    "mental",
+    "health",
+    "therapy",
+    "psychotherapy"
+  ],
+  "author": "SG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samgibs09/cbt_patient_sim/issues"
+  },
+  "homepage": "https://github.com/samgibs09/cbt_patient_sim#readme"
+}
